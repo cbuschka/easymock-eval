@@ -1,11 +1,12 @@
-package retour;
+package easymock_eval.application.retour_processing;
 
-import easymock_eval.application.retour_processing.ProcessRetourService;
-import easymock_eval.application.retour_processing.RetourValidationService;
-import easymock_eval.application.supplier_charging.ChargeSupplierService;
 import easymock_eval.application.customer_refunding.RefundCustomerService;
+import easymock_eval.application.supplier_charging.ChargeSupplierService;
 import easymock_eval.domain.retour.Retour;
-import org.easymock.*;
+import org.easymock.EasyMockExtension;
+import org.easymock.Mock;
+import org.easymock.MockType;
+import org.easymock.TestSubject;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.opentest4j.AssertionFailedError;
